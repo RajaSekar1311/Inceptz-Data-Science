@@ -10,11 +10,11 @@
 
 list1=[34,54,67,89,11,43,94]
 print("Original List",list1)
-list1.pop(4)
+a=list1.pop(4)
 print("List After Removing Element at index 4:",list1)
-list1.insert(2,11)
+list1.insert(2,a)
 print("List After Ading Element at Index 2:",list1)
-list1.append(11)
+list1.append(a)
 print("List After Adding Element at Last:",list1)
 
 
@@ -26,6 +26,7 @@ print("List After Adding Element at Last:",list1)
 list2=[100,200,300,400,500]
 print("The Original List is:", list2)
 list2.sort(reverse=True)
+#list2.reverse()
 print("The Result After Reverse Sorting:", list2)
 
 
@@ -39,6 +40,7 @@ list3=['Hello', 'take']
 print("The List3 Contains:", list3)
 list4=['Dear', 'Sir']
 print("The List4 Contains:", list4) 
+#list3.extend(list4)
 print("The concatinated list is:",list3+list4)
 
 
