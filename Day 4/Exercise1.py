@@ -10,11 +10,11 @@
 
 list1=[34,54,67,89,11,43,94]
 print("Original List",list1)
-list1.pop(4)
+a=list1.pop(4)
 print("List After Removing Element at index 4:",list1)
-list1.insert(2,11)
+list1.insert(2,a)
 print("List After Ading Element at Index 2:",list1)
-list1.append(11)
+list1.append(a)
 print("List After Adding Element at Last:",list1)
 
 
